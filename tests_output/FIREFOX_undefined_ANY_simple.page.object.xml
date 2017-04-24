@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="simple.page.object"
+    errors="0" failures="1" hostname="" id="" package="simple.page.object" skipped="0"
+    tests="1" time="11.84" timestamp="Sat, 22 Apr 2017 13:27:12 GMT">
+  
+    <testcase name="Simple Check" classname="simple.page.object" time="11.84" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#flash.flash.success&gt; is present.">    at Object.testCorrectLogin (C:\Users\sam.strong\Desktop\nightwatch-nottstest-installer\page_objects\login.js:20:25)
+    at Object.Simple Check (C:\Users\sam.strong\Desktop\nightwatch-nottstest-installer\tests\simple.page.object.js:10:14)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

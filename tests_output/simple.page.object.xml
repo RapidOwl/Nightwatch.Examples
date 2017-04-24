@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="simple.page.object"
+    errors="1" failures="0" hostname="" id="" package="simple.page.object" skipped="0"
+    tests="1" time="0.01400" timestamp="Sat, 22 Apr 2017 12:51:15 GMT">
+  
+    <testcase name="Simple Check" classname="simple.page.object" time="0.01400" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Simple Page Object / Simple Check]:
+
+  TypeError: loginForm.navigate(...).waitForElementPresent(...).assert.elementPresent(...).assert.elementPresent(...).click(...).stopTime is not a function
+    at Object.Simple Check (C:\Users\sam.strong\Desktop\nightwatch-nottstest-installer\tests\simple.page.object.js:11:14)
+    at Module.call (C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\sam.strong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
